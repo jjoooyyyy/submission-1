@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+d* { outline: red 1px solid; } 
+
+body {
+    background-color: #e3b69d;
+    background-image: url('img/bubbles.png.PNG'), url('img/background.png.PNG');
+    background-position: center 50px, left top;
+    background-repeat: no-repeat, repeat-x;
+    background-size: 800px, auto;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+}
+
+   
+
+
+#nav {
+    background-color:#e3b69d;
+    border-bottom: 4px solid rgb(229, 170, 147);
+    color: white;
+    font-weight: bold;
+    padding: 20px 0;
+    text-align: center;
+    word-spacing: 2em;
+}
+
+#header {
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+#description, #date {
+    width: 600px;
+    height: auto;
+}
+
+
+
+#about_me {
+background-color: #f1e7dc;
+    color: rgb(190, 85, 85);
+    margin-top: 100px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    height: 400px;
+}
+
+h1 {
+    font-size: 2.2em;
+    text-align: center;
+}
+
+#about_me h1 + p {
+    font-size: 1.2em;
+}
+
+p {
+    line-height: 1.6em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+
+
+#last_year {
+    background-color: #e6af97;
+    color: rgb(255, 255, 255);
+    padding-bottom: 40px;
+    padding-top: 15 , 30px;
+}
+#screen img {
+    height: 450px;
+    position : center;
+}
+
+#year_before {
+    background-color: rgb(255, 255, 255);
+    color: #e6af97;
+    height: 650px;
+    padding-bottom: 0px;
+    padding-top: 20px;
+    font-weight: bold;
+    text-align: justify;
+}
+#design img {
+    height: 450px;
+    position : center;
+}
+
+
+#year {
+    background-color: #cd4c51;
+    background-image: url(img/wires.png);
+    background-position: center 100px;
+    background-size: 700px;
+    color: #FFF;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    text-align: center;
+}
+#old_design img {
+    height: 450px;
+    position : center;
+}
+
+#very_old {
+    color: white;
+    text-align: center;
+}
+
+
+#old img {
+    height: 550px;
+    position : center;
+}
